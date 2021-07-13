@@ -18,22 +18,20 @@
   const style = document.createElement("style");
   style.innerHTML = `
 @font-face {
-    font-family: 'Noto Serif';
-    src: url(https://blog-cdn.cerallin.top/fonts/NotoSerifSC/NotoSerifSC-Regular.otf) format('opentype');
-    font-weight: 400;
-    font-size: 28px;
-    font-style: normal
+  font-family: 'Noto Serif';
+  src: url(https://blog-cdn.cerallin.top/fonts/NotoSerifSC/NotoSerifSC-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal
 }
 .box-body p, .box-body span {
-    line-height: 1.5em;
-    text-align: justify;
-    font-family: 'Noto Serif', serif;
+  line-height: 1.5em;
+  font-family: 'Noto Serif', serif;
 }
 
 .box-body.nvl-content img {
-    width: 80% !important;
-    margin-top: .6em;
-    margin-bottom: .6em;
+  width: 80% !important;
+  margin-top: .6em;
+  margin-bottom: .6em;
 }
 `;
   html.appendChild(style);
